@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2e37fea-ca6e-433c-aede-8618f20b3fc8" name="Changes" comment="" />
+    <list default="true" id="5aa0c2ff-8a7f-4850-bb38-802dff492d8d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -13,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FigyGuZKsOPra1M61gTeB8oqbQ" />
+  <component name="ProjectId" id="2FpnpTKLJzkHCpUh2CYYgDWjZt7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,18 +30,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Python-Day-to-Day/Day-17",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "D:/Python-Day-to-Day/datastructure cn",
+    "run.code.analysis.last.selected.profile": "aDefault"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2e37fea-ca6e-433c-aede-8618f20b3fc8" name="Changes" comment="" />
-      <created>1664980570403</created>
+      <changelist id="5aa0c2ff-8a7f-4850-bb38-802dff492d8d" name="Changes" comment="" />
+      <created>1665198075631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664980570403</updated>
+      <updated>1665198075631</updated>
     </task>
     <servers />
   </component>
