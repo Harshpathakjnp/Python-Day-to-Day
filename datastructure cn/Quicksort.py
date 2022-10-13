@@ -2,6 +2,7 @@ def partition(a,si,ei):
 
 
 
+
 def Quick_sort(a,si,ei):
     if si >= ei:
         return
