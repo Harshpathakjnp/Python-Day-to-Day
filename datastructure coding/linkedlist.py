@@ -19,14 +19,15 @@ def length(head):
         head = head.next
     return count
 
-def insertatIR(head,i,data):
-    if i==0:
+
+def insertatIR(head, i, data):
+    if i == 0:
         newNode = Node(data)
         newNode.next = head
         return newNode
     if head is None:
         return None
-    smallHead = insertatIR(head.next,i-1,data)
+    smallHead = insertatIR(head.next, i - 1, data)
     head.next = smallHead
     return head
 
@@ -52,6 +53,18 @@ def insertatI(head, i, data):
     return head
 
 
+def reverse1(head):
+    if head is None or head.next is None:
+        return head
+    smallHead = reverse1(head.next)
+    curr = smallHead
+    while curr.next is not None:
+        curr = curr.next
+    curr.next = head
+    head.next = None
+    return smallHead
+
+
 def takeinput():
     inputlist = [int(ele) for ele in input().split()]
     head = None
@@ -71,7 +84,5 @@ def takeinput():
 
 
 head1 = takeinput()
+head1 = reverse1(head1)
 printll(head1)
-insertatIR(head1, 2, 9)
-printll(head1)
-printll(insertatIR(head1, 0, 11))
