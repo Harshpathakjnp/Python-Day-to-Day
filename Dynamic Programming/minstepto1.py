@@ -1,0 +1,1 @@
+n = int(input("Enter Value of N : "))
